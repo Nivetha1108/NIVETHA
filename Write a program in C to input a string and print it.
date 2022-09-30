@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main(){
+char a[10],b[20];
+printf("Input the string:");
+scanf("%s %s",&a,&b); // *
+printf("The string you entered is: %s, %s",a,b);
+return 0;
+}
